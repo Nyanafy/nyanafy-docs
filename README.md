@@ -6,6 +6,7 @@ Public architecture and documentation for Nyanafy —  a gamified Kannada learni
 
 A gamified Kannada language learning platform for kids, built to make regional language education engaging, accessible, and joyful. Launching with Kannada — designed from the ground up to support multiple Indian regional languages in the future.
 
+
 🌟 The Problem
 
 Kannada is one of India's oldest classical languages, spoken by over 44 million people. Yet for children growing up outside Karnataka, or in urban households where English dominates daily life, learning Kannada is either boring, inaccessible, or both.
@@ -17,6 +18,7 @@ Too generic — not culturally grounded in Kannada
 Non-existent — very few apps target regional Indian languages for young children
 
 Nyanafy exists to change that.
+
 
 💡 The Solution
 
@@ -31,6 +33,7 @@ Immediate positive reinforcement through XP and celebrations
 A curriculum that introduces language naturally through context — not rote memorisation
 
 Parents get peace of mind knowing their child is engaging with their heritage language in a safe, structured, and joyful environment.
+
 
 ✨ Core Features
 For Kids
@@ -51,6 +54,7 @@ For the Platform
 🌍 Multi-Language Ready — localized content map supports future expansion to other Indian regional languages
 📱 Web First — works on any device with a browser
 
+
 🛠️ Technology Stack
 | Layer	            | Technology               |	Purpose |
 | ----------------- | ------------------------ | ---------------------------------------------- |
@@ -63,6 +67,7 @@ For the Platform
 | API Documentation |	SpringDoc OpenAPI	       | Swagger UI for API reference                   |
 | Frontend Hosting	| Vercel	                 | Fast, global React deployment                  |
 | Backend Hosting	  | Railway	                 | Spring Boot deployment                         |
+
 
 🏗️ Key Architectural Decisions
 MongoDB for Flexible Content Schema
@@ -104,6 +109,7 @@ This allows a child to progress simultaneously across multiple paths and worlds 
 TanStack Query Caching — Performance by Default
 
 The React frontend caches all API responses intelligently. Data is only re-fetched when something meaningful changes (activity completed, level finished) — not on every navigation event. This prevents unnecessary API calls as kids switch between screens repeatedly during a session.
+
 
 👤 User Flows
 Parent Account
