@@ -124,3 +124,42 @@ Dashboard → World Map → Select Path → Select Level
 ```
  
 ---
+
+ 
+## 🌏 Why This Matters
+ 
+India has 22 scheduled languages and hundreds of dialects. The next generation of Indian children — growing up in cities, abroad, or in multilingual households — risks losing connection to their mother tongue not out of choice, but out of lack of engaging tools.
+ 
+Nyanafy is built on the belief that language is identity, and identity should be joyful to discover.
+ 
+**Starting with Kannada. Building it fully. Then bringing that same love to every regional language that follows.**
+ 
+---
+ 
+## 📋 Compliance & Safety
+ 
+- Designed with child safety in mind — child profiles are managed by parents
+- No advertising
+- No third-party data sharing
+- No in-app purchases at launch
+- All content is age-appropriate and culturally grounded in Karnataka
+---
+ 
+## 📄 Repository Structure
+ 
+This is the public documentation repository for the Nyanafy platform.
+ 
+| Repository | Visibility | Description |
+|---|---|---|
+| `nyanafy-docs` | Public | Architecture, documentation, roadmap (this repo) |
+| `nyanafy-api` | Private | Spring Boot REST API |
+| `nyanafy-web` | Private | React.js frontend |
+ 
+---
+ 
+**ಕನ್ನಡ ನಾಡು ಎಂದೆಂದೂ ಉಳಿಯಲಿ 🌟**
+*(May the Kannada land live forever)*
+ 
+---
+ 
+*© 2026 Nyanafy. All rights reserved.*
