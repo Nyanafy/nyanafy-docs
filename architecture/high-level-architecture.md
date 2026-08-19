@@ -1,3 +1,5 @@
+```mermaid
+
 flowchart TB
     %% =========================
     %% Client
@@ -65,3 +67,4 @@ flowchart TB
     %% Assets
     %% =========================
     REACT -->|"Fetch Learning Assets"| STORAGE
+```
