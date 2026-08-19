@@ -1,13 +1,13 @@
 # nyanafy-docs
 Public architecture and documentation for Nyanafy —  a gamified Kannada learning platform for kids.
+---
 
-
-🎮 Nyanafy — ಕಲಿಸೋಣ (Let's Teach Kannada)
+##🎮 Nyanafy — ಕಲಿಸೋಣ (Let's Teach Kannada)
 
 A gamified Kannada language learning platform for kids, built to make regional language education engaging, accessible, and joyful. Launching with Kannada — designed from the ground up to support multiple Indian regional languages in the future.
 
 
-🌟 The Problem
+###🌟 The Problem
 
 Kannada is one of India's oldest classical languages, spoken by over 44 million people. Yet for children growing up outside Karnataka, or in urban households where English dominates daily life, learning Kannada is either boring, inaccessible, or both.
 
@@ -20,7 +20,7 @@ Non-existent — very few apps target regional Indian languages for young childr
 Nyanafy exists to change that.
 
 
-💡 The Solution
+###💡 The Solution
 
 Nyanafy turns Kannada learning into an adventure. Kids explore worlds, complete activities, earn XP, and unlock new levels — all while genuinely learning Kannada through their immediate, familiar world.
 
@@ -34,9 +34,10 @@ A curriculum that introduces language naturally through context — not rote mem
 
 Parents get peace of mind knowing their child is engaging with their heritage language in a safe, structured, and joyful environment.
 
+---
 
-✨ Core Features
-For Kids
+##✨ Core Features
+###For Kids
 🗺️ Learning Worlds — explore themed worlds, each with multiple paths and levels
 🎯 15 Activity Types — matching, listening, picture quizzes, word building, and more
 🤖 Mascot Guide — a friendly character that speaks, guides, and encourages throughout
@@ -44,18 +45,18 @@ For Kids
 🎉 Celebrations — rewarding moments when levels and paths are completed
 🔊 Audio Rich — native Kannada pronunciations for every word and letter
 
-For Parents
+###For Parents
 👨‍👩‍👧 Multiple Child Profiles — manage up to 3 child profiles under one parent account
 📊 Progress Tracking — see which levels and paths each child has completed
 🔒 Safe Environment — no ads, no in-app purchases, no external links
 
-For the Platform
+###For the Platform
 🌐 Content-Driven Architecture — new lessons and worlds added without code changes
 🌍 Multi-Language Ready — localized content map supports future expansion to other Indian regional languages
 📱 Web First — works on any device with a browser
 
 
-🛠️ Technology Stack
+##🛠️ Technology Stack
 | Layer	            | Technology               |	Purpose |
 | ----------------- | ------------------------ | ---------------------------------------------- |
 | Frontend	        | React.js	               | Web UI, cross-device experience                |
@@ -69,10 +70,8 @@ For the Platform
 | Backend Hosting	  | Railway	                 | Spring Boot deployment                         |
 
 
-🏗️ Key Architectural Decisions
-MongoDB for Flexible Content Schema
-
-Lessons, activities, and assets are stored as documents. New content — letters, words, game configurations — can be added or modified without code changes or redeployment. The game engine adapts to whatever data it receives, making Nyanafy a truly content-driven platform.
+##🏗️ Key Architectural Decisions
+MongoDB for Flexible Content Schema  — Lessons, activities, and assets are stored as documents. New content — letters, words, game configurations — can be added or modified without code changes or redeployment. The game engine adapts to whatever data it receives, making Nyanafy a truly content-driven platform.
 
 Supabase Auth — Identity Separated from Application Data
 
